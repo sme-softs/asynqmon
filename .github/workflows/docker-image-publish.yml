@@ -20,7 +20,7 @@ jobs:
         with:
           version: "lab:latest"
           driver: cloud
-          endpoint: "jimzdevops/asynqmon"
+          endpoint: "jimzdevops/utol"
 
 
       - name: Login to DockerHub
