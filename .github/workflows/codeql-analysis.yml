@@ -16,7 +16,7 @@ on:
 jobs:
   analyze:
     name: Analyze
-    runs-on: ubuntu-latest
+    runs-on: buildjet-2vcpu-ubuntu-2204-arm
 
     strategy:
       fail-fast: false
