@@ -56,5 +56,7 @@ FROM scratch
 # Copy binary from /build to the root folder of the scratch container.
 COPY --from=backend ["/build/asynqmon", "/"]
 
+EXPOSE 8080
+
 # Command to run when starting the container.
 ENTRYPOINT ["/asynqmon"]
